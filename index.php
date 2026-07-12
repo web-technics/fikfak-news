@@ -1455,45 +1455,6 @@ ini_set('display_errors', 0);
         </picture>
       </a>
     </div>
-    <section class="event-promo" aria-labelledby="event-promo-heading">
-      <div class="event-promo-grid">
-        <a class="event-promo-media" href="https://www.opdatemetjezelf.be/shop" target="_blank" rel="noopener noreferrer" aria-label="Bekijk tickets voor het Fikfak Zomerfeest">
-          <img src="assets/images/fikfak_zomerfeest_21_juni_BARN64.jpg" alt="Poster voor het Fikfak Zomerfeest met Mattias Desmet en Dirk Theuns" loading="lazy" width="768" height="768">
-        </a>
-
-        <div class="event-promo-copy">
-          <span class="event-kicker">Live Event</span>
-          <h3 id="event-promo-heading">Fikfak Zomerfeest met Mattias Desmet en Dirk Theuns</h3>
-          <p>een live avond rond bewustzijn, ontmoeting en muziek.</p>
-
-          <ul class="event-meta-list" aria-label="Praktische info Fikfak Zomerfeest">
-            <li class="event-meta-item">
-              <span class="event-meta-label">Datum</span>
-              <span class="event-meta-value">Zondag 21 juni</span>
-            </li>
-            <li class="event-meta-item">
-              <span class="event-meta-label">Startuur</span>
-              <span class="event-meta-value">15u00</span>
-            </li>
-            <li class="event-meta-item">
-              <span class="event-meta-label">Locatie</span>
-              <span class="event-meta-value">Barn64, Brasschaat</span>
-            </li>
-            <li class="event-meta-item">
-              <span class="event-meta-label">Tickets</span>
-              <span class="event-meta-value">24 euro</span>
-            </li>
-          </ul>
-
-          <div class="event-cta-row">
-            <a class="btn" href="https://www.opdatemetjezelf.be/shop" target="_blank" rel="noopener noreferrer">Bestel Tickets</a>
-            <a class="btn btn-outline" href="assets/images/fikfak_zomerfeest_21_juni_BARN64.jpg" target="_blank" rel="noopener noreferrer">Bekijk Poster</a>
-          </div>
-
-          <div class="event-footnote">Genieten, luisteren en dansen. Rechtstreeks gelinkt aan de shop op opdatemetjezelf.be.</div>
-        </div>
-      </div>
-    </section>
     <!-- Steun Fikfak News (volledige breedte onder video's) -->
     <section class="support-card" id="support" aria-labelledby="support-heading">
       <h2 id="support-heading" style="text-align:center;margin:0 0 20px;font-size:28px;font-weight:800;color:#fff;text-transform:uppercase;letter-spacing:0.5px;">💰 Steun Fikfak News</h2>
