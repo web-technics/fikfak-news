@@ -196,6 +196,7 @@ ini_set('display_errors', 0);
       'cookie_flags': 'SameSite=None;Secure'
     });
   </script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="qAI5KdmEMDUDtp3GwI5L0w" async></script>
   
   <!-- Security Meta Tags -->
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
