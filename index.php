@@ -871,6 +871,9 @@ ini_set('display_errors', 0);
     .webtechnics-logo{max-height:56px;display:inline-block;margin:0 auto 10px;width:auto;background:#fff;padding:6px;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
     .footer-credit{display:flex;flex-direction:column;align-items:center;text-align:center}
     .footer-link-text{font-weight:700;color:inherit}
+    .footer-legal{max-width:var(--max-width);margin:14px auto 0;text-align:center;font-size:13px;color:var(--muted)}
+    .footer-legal a{color:var(--muted);text-decoration:none;font-weight:700}
+    .footer-legal a:hover{color:var(--accent);text-decoration:underline}
     .social-link{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:8px;background:rgba(255,255,255,0.01);margin-left:8px;color:var(--muted);text-decoration:none;min-width:44px;min-height:44px;touch-action:manipulation;}
     .social-link svg{width:18px;height:18px;fill:currentColor}
     .social-link:hover{background:rgba(255,255,255,0.02);color:var(--accent)}
@@ -1549,223 +1552,9 @@ ini_set('display_errors', 0);
       </a>
     </div>
 
-<!-- Begin Brevo Form -->
-<!-- START - We recommend to place the below code in head tag of your website html  -->
-<style>
-  @font-face {
-    font-display: block;
-    font-family: Roboto;
-    src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
-  }
-
-  @font-face {
-    font-display: fallback;
-    font-family: Roboto;
-    font-weight: 600;
-    src: url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
-  }
-
-  @font-face {
-    font-display: fallback;
-    font-family: Roboto;
-    font-weight: 700;
-    src: url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
-  }
-
-  #sib-container input:-ms-input-placeholder {
-    text-align: left;
-    font-family: Helvetica, sans-serif;
-    color: #c0ccda;
-  }
-
-  #sib-container input::placeholder {
-    text-align: left;
-    font-family: Helvetica, sans-serif;
-    color: #c0ccda;
-  }
-
-  #sib-container textarea::placeholder {
-    text-align: left;
-    font-family: Helvetica, sans-serif;
-    color: #c0ccda;
-  }
-
-  /* Style Brevo form inputs for better readability */
-  #sib-container input[type="text"],
-  #sib-container input[type="email"],
-  #sib-container textarea {
-    background-color: rgba(20,20,35,0.9) !important;
-    color: #ffffff !important;
-    border: 2px solid rgba(255,255,255,0.15) !important;
-    border-radius: 16px !important;
-    padding: 12px 16px !important;
-    font-size: 15px !important;
-    min-height: 44px !important;
-  }
-
-  #sib-container input[type="text"]::placeholder,
-  #sib-container input[type="email"]::placeholder,
-  #sib-container textarea::placeholder {
-    color: rgba(255,255,255,0.6) !important;
-  }
-
-  #sib-container input[type="text"]:focus,
-  #sib-container input[type="email"]:focus,
-  #sib-container textarea:focus {
-    border-color: var(--accent) !important;
-    box-shadow: 0 0 0 3px rgba(28,99,207,0.2) !important;
-    background-color: rgba(20,20,35,0.95) !important;
-  }
-
-  /* Fix autofill colors */
-  #sib-container input[type="text"]:-webkit-autofill,
-  #sib-container input[type="email"]:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px rgba(20,20,35,0.9) inset !important;
-    -webkit-text-fill-color: #ffffff !important;
-  }
-
-  #sib-container a {
-    text-decoration: underline;
-  }
-
-  /* Brevo form container styling */
-  #sib-form-container {
-    background: transparent !important;
-    padding: 0 !important;
-  }
-
-  #sib-container {
-    max-width: 600px !important;
-    margin: 0 auto !important;
-    background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)) !important;
-    border: 1px solid rgba(255,255,255,0.1) !important;
-    border-radius: 20px !important;
-    padding: 24px 20px !important;
-  }
-
-  #sib-container--large {
-    padding: 24px !important;
-    color: #2BB2FC;
-  }
-</style>
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-<!--  END - We recommend to place the above code in head tag of your website html -->
-
-<!-- START - We recommend to place the below code where you want the form in your website html  -->
-<div class="sib-form" style="text-align: center;
-         background-color: transparent;                                 ">
-  <div id="sib-form-container" class="sib-form-container">
-    <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
-      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
-        <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
-          <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
-        </svg>
-        <span class="sib-form-message-panel__inner-text">
-                          Your subscription could not be saved. Please try again.
-                      </span>
-      </div>
-    </div>
-    <div></div>
-    <div id="success-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;max-width:540px;">
-      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
-        <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
-          <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
-        </svg>
-        <span class="sib-form-message-panel__inner-text">
-                          Your subscription has been successful.
-                      </span>
-      </div>
-    </div>
-    <div></div>
-    <div id="sib-container" class="sib-container--large sib-container--horizontal" style="text-align:center; background-color:transparent; max-width:100%; width:100%; border-radius:2px; border-width:0px; border-color:#C0CCD9; border-style:solid; direction:ltr">
-      <form id="sib-form" method="POST" action="https://540f130c.sibforms.com/serve/MUIFAGtIitgNodIRm4uBwXuYKHHhhqMVQ5l6h7b9pBrbqG4Qw4Rfcy80H_IKDr_Yi0AnWHFWGzw18D8d2WuA-dJZp1gb3VKTmSbS4eqNN9lFCDeEFhwXNEb7xF4aNSYapxjRFYqTeLfbPL4w9TWQGALCNjPKsTBABtdMFb56W5SbwN-dL3r69UibJS3Lq3WlCAMDwafsnTwy0I4M" data-type="subscription">
-        <div style="padding: 12px 0;">
-          <div class="sib-form-block" style="font-size:28px; text-align:center; font-weight:800; font-family:Helvetica, sans-serif; color:#ffffff; background-color:transparent; text-align:center;text-transform:uppercase;letter-spacing:0.5px;">
-            <p>📧 Ontvang Fikfak Nieuws in je mailbox</p>
-          </div>
-        </div>
-        <div style="padding: 8px 0;">
-          <div class="sib-form-block sib-divider-form-block">
-            <div style="border: 0; border-bottom: 2px solid var(--accent);"></div>
-          </div>
-        </div>
-        <div style="padding: 12px 0;">
-          <div class="sib-form-block" style="font-size:17px; text-align:center; font-family:Helvetica, sans-serif; color:#eeeff0; background-color:transparent; text-align:center">
-            <div class="sib-text-form-block">
-              <p style="line-height:1.6;margin-bottom:12px;"><strong>🎯 Mis nooit meer een aflevering!</strong></p>
-              <p>Meld je aan voor onze nieuwsbrief en ontvang:</p>
-              <ul style="list-style:none;padding:0;margin:12px 0;line-height:1.8;">
-                <li>✅ <strong>Nieuwe afleveringen direct in je inbox</strong></li>
-                <li>✅ <strong>Exclusieve updates en achtergronden</strong></li>
-                <li>✅ <strong>Gratis en zonder spam</strong></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div style="padding: 8px 0;">
-          <div class="sib-input sib-form-block">
-            <div class="form__entry entry_block">
-              <div class="form__label-row form__label-row--horizontal">
-
-                <div class="entry__field">
-                  <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="📧 Jouw e-mailadres" data-required="true" required style="font-size:16px;padding:14px;" />
-                </div>
-              </div>
-
-              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-              </label>
-            </div>
-          </div>
-        </div>
-        <div style="padding: 12px 0;">
-          <div class="sib-form-block" style="text-align: center">
-            <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:18px; text-align:center; font-weight:800; font-family:Helvetica, sans-serif; color:#fff; background:linear-gradient(135deg,var(--accent),#1e7eeb); border-radius:10px; border-width:0px; padding:14px 32px; min-width:240px;min-height:52px;text-transform:uppercase;letter-spacing:0.5px;box-shadow:0 8px 24px rgba(28,99,207,0.4);" form="sib-form" type="submit">
-              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512" style="display:none;">
-                <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
-              </svg>
-              🚀 Inschrijven Nu!
-            </button>
-          </div>
-        </div>
-
-        <input type="text" name="email_address_check" value="" class="input--hidden">
-        <input type="hidden" name="locale" value="en">
-      </form>
-    </div>
-  </div>
-</div>
-<!-- END - We recommend to place the above code where you want the form in your website html  -->
-
-<!-- START - We recommend to place the below code in footer or bottom of your website html  -->
-<script>
-  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-  window.LOCALE = 'en';
-  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
-
-  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
-
-  window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
-
-
-
-
-  window.translation = {
-    common: {
-      selectedList: '{quantity} list selected',
-      selectedLists: '{quantity} lists selected',
-      selectedOption: '{quantity} selected',
-      selectedOptions: '{quantity} selected',
-    }
-  };
-
-  var AUTOHIDE = Boolean(0);
-</script>
-
-<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
-
-
-<!-- END - We recommend to place the above code in footer or bottom of your website html  -->
-<!-- End Brevo Form -->
+    <section class="newsletter-card" aria-label="Nieuwsbrief inschrijving">
+      <div data-reach-form="0a80a6ae-bbc7-4076-a2de-ffa4fae573d3"></div>
+    </section>
 
     <footer class="site-footer" role="contentinfo">
       <div class="footer-grid">
@@ -1798,6 +1587,9 @@ ini_set('display_errors', 0);
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
           </a>
         </div>
+      </div>
+      <div class="footer-legal">
+        <a href="/privacy-policy.html">Privacybeleid</a>
       </div>
     </footer>
 
@@ -2960,6 +2752,8 @@ ini_set('display_errors', 0);
       }
     });
   </script>
+
+  <script src="https://cdn-reach.hostinger.com/js/embed.js"></script>
 
 </body>
 </html>
